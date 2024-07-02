@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="es" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="/style.css">
+    <script src="/script.js"></script>
+</head>
+<body>
+  <!-- MENU ENCABEZADO -->
+  <div class="contenedor-header">
+      <header>
+          <div class="logo">
+              <a href="#">José Jara </a>
+          </div>
+          <nav id="nav">
+              <ul>
+                  <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+                  <li><a href="#sobremi" onclick="seleccionar()">SOBRE MI</a></li>
+                  <li><a href="#skills" onclick="seleccionar()">SKILLS</a></li>
+                  <li><a href="#curriculum" onclick="seleccionar()">CURRICULUM</a></li>
+                  <li><a href="#portfolio" onclick="seleccionar()">PORTFOLIO</a></li>
+                  <li><a href="#contacto" onclick="seleccionar()">CONTACTO</a></li>
+              </ul>
+          </nav>
+          <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+              <i class="fa-solid fa-bars"></i>
+          </div>
+      </header>
+  </div>
+
+  <!-- SECCION INICIO -->
+  <section id="inicio" class="inicio">
+      <div class="contenido-banner">
+          <div class="contenedor-img">
+              <img src="/profile.png" alt=""/>
+          </div>
+          <h1>José Jara Canales</h1>
+          <h2>Estudiante Ing. en Informática
+          <br> Instituto CIISA</br></h2>
+          <div class="redes">
+              <a href="https://www.linkedin.com/in/jjaracanales"><i class="fa-brands fa-linkedin-in"></i></a>
+              <a href="https://github.com/jjaracanales"><i class="fa-brands fa-github"></i></a>
+          </div>
+      </div>
+  </section>
+
+  <!-- SECCION SOBRE MI -->
+  <section id="sobremi" class="sobremi">
+      <div class="contenido-seccion">
+          <h2>Sobre Mí</h2>
+          <p><span>Hola, soy José Jara.</span>
+             <br>
+              Soy estudiante de Ingeniería en Informática apasionado por resolver problemas complejos y crear soluciones innovadoras. Mi curiosidad insaciable me lleva a explorar constantemente nuevas tecnologías y a perfeccionar mis habilidades en áreas como bases de datos, algoritmos y desarrollo web.</br>
+             <br>
+              En este portafolio, encontrarás una selección de mis proyectos más significativos, que reflejan mi crecimiento y aprendizaje en el campo de la informática. Cada proyecto es un testimonio de mi dedicación, mi capacidad para trabajar en equipo y mi compromiso con la producción de software de alta calidad. </br>
+             <br>
+              Espero que disfrutes explorando mi trabajo tanto como yo disfruté creándolo. Si tienes alguna pregunta o simplemente quieres decir hola, no dudes en ponerte en contacto conmigo. </br>
+              <br>
+              ¡Gracias por visitar mi portafolio! </br></p>
+
+          <div class="fila">
+              <!-- datos personales -->
+              <div class="col">
+                  <h3>Datos Personales</h3>
+                  <ul>
+                      <li>
+                          <strong>Teléfono</strong>
+                          +569 5901 7230
+                      </li>
+                      <li>
+                          <strong>Email</strong>
+                          jose.jara.canales@ciisa.cl
+                      </li>
+                      <li>
+                          <strong>Dirección</strong>
+                          Melipilla, Chile
+                      </li>
+                      <li>
+                          <strong>Cargo</strong>
+                          <span>Estudiante</span>
+                      </li>
+                  </ul>
+              </div>
+              <!-- intereses -->
+              <div class="col">
+                  <h3>Intereses</h3>
+                  <div class="contenedor-intereses">
+                      <div class="interes">
+                          <i class="fa-solid fa-gamepad"></i>
+                          <span>Juegos</span>
+                      </div>
+                      <div class="interes">
+                          <i class="fa-solid fa-motorcycle"></i>
+                          <span>Motos</span>
+                      </div>
+                      <div class="interes">
+                          <i class="fa-solid fa-car"></i>
+                          <span>Autos</span>
+                      </div>
+                      <div class="interes">
+                          <i class="fa-solid fa-code"></i>
+                          <span>Programar</span>
+                      </div>
+                      <div class="interes">
+                          <i class="fa-solid fa-person-hiking"></i>
+                          <span>Trekking</span>
+                      </div>
+                      <div class="interes">
+                          <i class="fa-solid fa-book"></i>
+                          <span>Lectura</span>
+                      </div>
+                      <div class="interes">
+                          <i class="fa-solid fa-video"></i>
+                          <span>Videos</span>
+                      </div>
+                      <div class="interes">
+                          <i class="fa-solid fa-camera"></i>
+                          <span>Fotos</span>
+                      </div>
+
+                  </div>
+              </div>
+          </div>
+          <button>
+              Descargar mi CV
+              <a href="https://1drv.ms/b/s!AtOMvlEYx7bhktVDo7D1mbbQd4Xx5Q?e=GsxtQ2"><i class="fa-solid fa-download"></i></a>
+              <span class="overlay"></span>
+          </button>
+      </div>
+
+  </section>
+
+  <!-- SECCION SKILLS -->
+  <section class="skills" id="skills">
+      <div class="contenido-seccion">
+          <h2>Skills</h2>
+          <div class="fila">
+              <!-- Technical Skill -->
+              <div class="col">
+                  <h3>Technical Skills</h3>
+                  <div class="skill">
+                      <span>JavaScript</span>
+                      <div class="barra-skill">
+                          <div class="progreso">
+                              <span>60%</span>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="skill">
+                      <span>HTML & CSS</span>
+                      <div class="barra-skill">
+                          <div class="progreso">
+                              <span>80%</span>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="skill">
+                      <span>SQL</span>
+                      <div class="barra-skill">
+                          <div class="progreso">
+                              <span>50%</span>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="skill">
+                      <span>Python</span>
+                      <div class="barra-skill">
+                          <div class="progreso">
+                              <span>70%</span>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="skill">
+                      <span>Excel</span>
+                      <div class="barra-skill">
+                          <div class="progreso">
+                              <span>95%</span>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="skill">
+                      <span>Data Science</span>
+                      <div class="barra-skill">
+                          <div class="progreso">
+                              <span>85%</span>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+              <!-- Professional Skills -->
+              <div class="col">
+                  <h3>Professional Skills</h3>
+                  <div class="skill">
+                      <span>Comunicación</span>
+                      <div class="barra-skill">
+                          <div class="progreso">
+                              <span>95%</span>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="skill">
+                      <span>Trabajo en Equipo</span>
+                      <div class="barra-skill">
+                          <div class="progreso">
+                              <span>97%</span>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="skill">
+                      <span>Creatividad</span>
+                      <div class="barra-skill">
+                          <div class="progreso">
+                              <span>99%</span>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="skill">
+                      <span>Dedicación</span>
+                      <div class="barra-skill">
+                          <div class="progreso">
+                              <span>100%</span>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="skill">
+                      <span>Proyect Management</span>
+                      <div class="barra-skill">
+                          <div class="progreso">
+                              <span>94%</span>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </section>
+
+  <!-- SECCION CURRICULUM -->
+  <section id="curriculum" class="curriculum">
+      <div class="contenido-seccion">
+          <h2>Curriculum</h2>
+          <div class="fila">
+              <div class="col izquierda">
+                  <h3>Educación</h3>
+                  <div class="item izq">
+                      <h4>Ingeniería en Informática</h4>
+                      <span class="casa">Instituto Profesional CIISA</span>
+                      <span class="fecha">2024 - 2027</span>
+                      <p>Cursando</p>
+                      <div class="conectori">
+                         <div class="circuloi"></div>
+                      </div>
+                  </div>
+
+                  <div class="item izq">
+                      <h4>Tecnico en Administración de Empresas</h4>
+                      <span class="casa">Colegio San Agustin</span>
+                      <span class="fecha">2004 - 2007</span>
+                      <p>Titulado</p>
+                      <div class="conectori">
+                         <div class="circuloi"></div>
+                      </div>
+                  </div>
+
+                  <h3>Cursos y Diplomados</h3>
+                  <div class="item izq">
+                      <span class="casa">Desafio Latam</span>
+                      <span class="fecha">2024</span>
+                      <p>• Introducción al Desarrollo Web</p>
+                      <p>• Programación y productividad: Chat GPT para profesionales TI</p>
+                      <div class="conectori">
+                          <div class="circuloi"></div>
+                      </div>
+                  </div>
+
+                  <div class="item izq">
+                      <span class="casa">Virtual Labx (Facultad de Ciencias Físicas y Matemáticas U. Chile)</span>
+                      <span class="fecha">2024</span>
+                      <p>• Diseño UX</p>
+                      <p>• Business Analytics Essentials</p>
+                      <p>• Data Science</p>
+                      <p>• Power BI</p>
+                      <p>• Machine Learning with Python Essentials</p>
+                      <p>• Desarrollo Frontend Essentials</p>
+                      <div class="conectori">
+                         <div class="circuloi"></div>
+                      </div>
+                  </div>
+
+                  <div class="item izq">
+                      <span class="casa">Cisco Networking Academy</span>
+                      <span class="fecha">2023</span>
+                      <p>• Python Essentials 1</p>
+                      <p>• Computer Hardware• Operating Systems</p>
+                      <p>• Introduction to Data Science</p>
+                      <p>• Data Analytics Essentials</p>
+                      <p>• Introduction of Cibersecurity</p>
+                      <div class="conectori">
+                         <div class="circuloi"></div>
+                      </div>
+                  </div>
+              </div>
+
+              <div class="col derecha">
+                  <h3>Experiencia de trabajo</h3>
+                  <div class="item der">
+                      <h4>Front-end Developer</h4>
+                      <span class="casa">Particular</span>
+                      <span class="fecha">2024</span>
+                      <p>Desarrollador Front-end Independiente con experiencia en la creación de interfaces de usuario atractivas y funcionales para aplicaciones web y móviles. Especializado en HTML, CSS y JavaScript, con habilidades demostradas en la traducción de diseños de interfaz de usuario en elementos interactivos y optimización del rendimiento del sitio web. Capacidad probada para trabajar de manera autónoma, gestionar proyectos y cumplir con los plazos de entrega. Excelente comunicación y habilidades de colaboración para comprender y satisfacer las necesidades del cliente. </p>
+                      <div class="conectord">
+                          <div class="circulod"></div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </section>
+
+  <!-- SECCION PORTFOLIO -->
+  <section id="portfolio" class="portfolio">
+      <div class="contenido-seccion">
+          <h2>Portafolio</h2>
+          <div class="galeria">
+              <div class="proyecto">
+                  <img src="/p1.png" alt="">
+                  <div class="overlay">
+                      <h3>Galeria de Artes</h3>
+                      <p>Trabajo 1 del taller de tecnologías web</p>
+                  </div>
+              </div>
+              <div class="proyecto">
+                  <img src="/p2.png" alt="">
+                  <div class="overlay">
+                      <h3>Galeria de Mini</h3>
+                      <p>Evaluacion 1 del taller de tecnologías web</p>
+                  </div>
+              </div>
+              <div class="proyecto">
+                  <img src="p3.png" alt="">
+                  <div class="overlay">
+                      <h3>Mi Portafolio</h3>
+                      <p>Potafolio del taller de tecnologías web</p>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </section>
+
+  <!-- SECCION CONTACTO -->
+  <section id="contacto" class="contacto">
+      <div class="contenido-seccion">
+          <h2>Contacto</h2>
+          <div class="fila">
+              <!-- Formulario -->
+              <div class="col">
+              <form action="https://formsubmit.co/jose.jara.canales@ciisa.cl" method="POST">
+                  <input type="text" placeholder="Tú Nombre" name="name">
+                  <input type="text" placeholder="Número telefónico" name="phone">
+                  <input type="text" placeholder="Dirección de correo" name="mail">
+                  <input type="text" placeholder="Tema" name="theme">
+                  <textarea name="mensaje" id="" cols="30" rows="10" placeholder="Mensaje"> </textarea>
+                  <button>
+                      Enviar Mensaje<i class="fa-solid fa-paper-plane"></i>
+                      <span class="overlay"></span>
+                  </button>
+              </form>
+
+              </div>
+              <!-- Mapa -->
+              <div class="col">
+                  <img src="/mapa.png" alt="">
+                  <div class="info">
+                      <ul>
+                          <li>
+                              <i class="fa-solid fa-location-dot"></i>
+                              Melipilla - Chile
+                          </li>
+                          <li>
+                              <i class="fa-solid fa-mobile-screen"></i>
+                              Llamanos: +56959017230
+                          </li>
+                          <li>
+                              <i class="fa-solid fa-envelope"></i>
+                              Email: jose.jara.canales@ciisa.cl
+                          </li>
+                      </ul>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </section>
+
+
+</body>
+</html>
