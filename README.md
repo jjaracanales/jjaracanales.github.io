@@ -1,5 +1,73 @@
-# Vue 3 + Vite
+# 👨‍💻 Portfolio - José Jara
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+Portfolio personal desarrollado con Vue.js y Ant Design Vue.
 
-Learn more about IDE Support for Vue in the [Vue Docs Scaling up Guide](https://vuejs.org/guide/scaling-up/tooling.html#ide-support).
+## 🌐 Demo
+
+**[https://jjaracanales.github.io](https://jjaracanales.github.io)**
+
+## ✨ Características
+
+- 🎨 Diseño moderno con glassmorphism y animaciones
+- 💻 Simulación interactiva de escritorio Mac
+- 🎮 Mini juegos (Snake y Flappy Bird)
+- 🤖 Easter eggs ocultos por descubrir
+- 📱 Diseño responsive
+- 💬 Botón flotante de WhatsApp
+- 📄 Descarga de CV
+
+## 🛠️ Tecnologías
+
+- **Vue.js 3** - Framework frontend
+- **Ant Design Vue** - Librería de componentes
+- **Vite** - Build tool
+- **CSS3** - Animations & Glassmorphism
+
+## 🚀 Instalación
+
+```bash
+# Clonar repositorio
+git clone https://github.com/jjaracanales/jjaracanales.github.io.git
+
+# Instalar dependencias
+npm install
+
+# Iniciar servidor de desarrollo
+npm run dev
+
+# Build para producción
+npm run build
+
+# Deploy a GitHub Pages
+npm run deploy
+```
+
+## 📁 Estructura
+
+```
+src/
+├── components/
+│   ├── hero/          # Componentes del Mac Desktop
+│   ├── HeroSection.vue
+│   ├── AboutSection.vue
+│   ├── SkillsSection.vue
+│   ├── ProjectsSection.vue
+│   ├── ContactSection.vue
+│   └── ...
+├── assets/
+│   ├── styles/
+│   └── web/
+└── App.vue
+```
+
+## 👤 Autor
+
+**José Jara Canales**
+- 💼 CEO de [Plutonia SpA](https://plutonia.cl)
+- 📧 jose.jara@plutonia.cl
+- 💼 [LinkedIn](https://www.linkedin.com/in/jjaracanales/)
+- 🐙 [GitHub](https://github.com/jjaracanales)
+
+## 📄 Licencia
+
+MIT © José Jara Canales
